@@ -1,10 +1,10 @@
 "use client";
-import { IoClose } from "react-icons/io5";
+// import { IoClose } from "react-icons/io5";
 import { FormsWhats } from "./components/FormsWhats";
-import { useState } from "react";
+// import { useState } from "react";
 
 export default function Home() {
-  const [modal, setModal] = useState(false);
+  // const [modal, setModal] = useState(false);
   return (
     <main
       className="w-full h-[100dvh] max-[767px]:px-[1.25rem]"

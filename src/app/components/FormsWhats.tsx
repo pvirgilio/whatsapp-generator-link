@@ -18,7 +18,7 @@ const formatPhone = (value: string) => {
 export const FormsWhats = () => {
   const [generatedLink, setGeneratedLink] = useState<string>("");
   const [copied, setCopied] = useState<boolean>(false);
-  const { handleSubmit, control, setValue } = useForm<FormData>({
+  const { handleSubmit, control } = useForm<FormData>({
     defaultValues: {
       whatsappNumber: "",
       message: "",
