@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 // import { IoClose } from "react-icons/io5";
 import { FormsWhats } from "./components/FormsWhats";
 // import { useState } from "react";
@@ -25,6 +26,17 @@ export default function Home() {
         </div>
         <FormsWhats />
       </section>
+      <div className="w-full bg-white p-5 flex items-center justify-center">
+        <span className="">
+          Feito por:{" "}
+          <Link
+            className="text-blue-500 font-bold underline"
+            href="https://pedrovirgilio.vercel.app"
+          >
+            Pedro Virgilio
+          </Link>
+        </span>
+      </div>
     </main>
   );
 }
